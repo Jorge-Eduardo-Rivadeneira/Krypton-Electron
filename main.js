@@ -14,11 +14,12 @@ function createWindow() {
 
     mainWindow = new BrowserWindow({
         width: 680,
-        height: 520,
+        height: 580,
         center: true,
         resizable: false,   
         maximizable: false, 
         icon: path.join(__dirname, "assets/icon.png"),
+        title: "Krypton - File and Folder Crypto-Tool",
         webPreferences: {
             preload: path.join(__dirname, "preload.js"),
             contextIsolation: true,
