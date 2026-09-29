@@ -29,7 +29,8 @@
     "linux": {
       "target": [
         "AppImage",
-        "rpm", "deb"
+        "rpm",
+        "deb"
       ],
       "maintainer": "Jorge Eduardo Rivadeneira Munoz <jorgeduardo@proton.me>",
       "icon": "assets/png",
@@ -44,7 +45,7 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "electron": "^40.8.0",
+    "electron": "^44.4.5",
     "electron-builder": "^26.8.1"
   }
 }
