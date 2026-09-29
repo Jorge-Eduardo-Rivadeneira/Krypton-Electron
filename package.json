@@ -29,11 +29,10 @@
     "linux": {
       "target": [
         "AppImage",
-        "rpm",
         "deb"
       ],
       "maintainer": "Jorge Eduardo Rivadeneira Munoz <jorgeduardo@proton.me>",
-      "icon": "assets/png",
+      "icon": "assets/icon.png",
       "category": "Utility"
     }
   },
